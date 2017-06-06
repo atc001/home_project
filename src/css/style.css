@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
 }
 .margin {
     margin: 0;
@@ -7,6 +8,7 @@ html {
 body {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 header {
     background-color: #FFFB1A;
@@ -46,4 +48,22 @@ footer {
 #contact {
     display: flex;
     flex-direction: row;
+}
+main {
+    background-color: #8698E8;
+}
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#img_1 img {
+    width: 50%;
 }

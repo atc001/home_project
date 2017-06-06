@@ -1,4 +1,6 @@
 <?php ?>
+
+</main>
 <footer>
     <div id="text">
     <p>Fait par Anthony COSTE.</p>
@@ -15,7 +17,6 @@
         </div>
     </div>
 </footer>
-</main>
 </body>
 
 </html>
