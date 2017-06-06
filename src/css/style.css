@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+.margin {
+    margin: 0;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+header {
+    background-color: #FFFB1A;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    height: 100%;
+    width: 85px;
+}
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+}
+header ul li {
+    padding-right: 5px;
+}
+header ul li a {
+    text-decoration: none;
+}
+footer {
+    height: 15%;
+    background-color: #FFFB1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact {
+    display: flex;
+    flex-direction: row;
+}
