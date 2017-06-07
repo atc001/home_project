@@ -14,7 +14,7 @@
     <img src="img/duck.jpg">
     <h1>Marché aux Canards</h1>
     <ul>
-        <li><a href="./index.php">Accueil</a></li>
+        <li><a href="index.php">Accueil</a></li>
         <li><a href="commande.php">Commander</a></li>
         <li><a href="script/db/disconnect.php">Déconnexion</a></li>
     </ul>
@@ -23,10 +23,18 @@
     <h2 class="margin">Catalogue :</h2>
     <div id="first">
         <div id="img_1">
-            <img src="img/duck_2.png">
+            <img src="img/duck_2.png" class="size">
         </div>
         <div id="text_1">
-            <p>Voici notre canard basique en plastique jaune. Peut servir dans un bain ou encore pour les fous qui parlent à des canards</p>
+            <p class="padding">Voici notre canard basique en plastique jaune. Peut servir dans un bain ou encore pour les fous qui parlent à des canards</p>
+        </div>
+    </div>
+    <div id="second">
+        <div id="img_2">
+            <img src="img/duck_3.jpg" class="size">
+        </div>
+        <div id="text_2">
+            <p class="padding">Magnifique vilain petit canard noir avec option vibrant. Constitué de sillicone, il sera très vite agréable à nettoyer après... Le bain ! Et oui n'oubliez pas que c'est un canard !</p>
         </div>
     </div>
 <?php

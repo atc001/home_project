@@ -10,6 +10,13 @@ body {
     height: 100%;
     width: 100%;
 }
+.size {
+    width: 100%;
+    height: 400px;
+}
+.padding {
+    padding: 5px;
+}
 header {
     background-color: #FFFB1A;
     height: 15%;
@@ -57,13 +64,35 @@ main h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 35px;
 }
 #first {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-size: 20px;
 }
-#img_1 img {
+#img_1 {
+    background-color: white;
+    width: 50%;
+    border: 1px solid black
+}
+#text_1 {
+    width: 50%;
+}
+#second {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+#img_2 {
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+}
+#text_2 {
     width: 50%;
 }
