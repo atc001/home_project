@@ -1,12 +1,15 @@
 Début du projet:
 
 06/06 9h00:
-Premier problème rencontré avec apache2, du coup obliger de destroy la vagrant et la réinstaller.(résolu)
+Premier problème rencontré avec apache2, du coup obligé de destroy la vagrant et la réinstaller.(résolu)
 Problème pour connecter mon mySQL avec ma vagrant. (résolu)
 Aujourd'hui j'ai essentiellement fait sur plan la structure de mon application et developpé mon header, footer.
-
 Préparation d'un catalogue avec pourquoi pas un système pour commander un canard déjà fait avec un assemblage par défaut.
 
 07/06 9h30:
-Problème de synchronisation au niveau du css.
+Problème de synchronisation au niveau du css. J'ai réussi à résoudre le problème à 11h.(résolu)
+Ensuite j'ai fini le catalogue avec la possibilité de commander les canards présents dans celui-ci.
+Pour cela j'ai créé une base de donné mySQL manuellement en mettant les canards.
+Je les ai mis dans un select afin que le client ait le choix dans un menu déroulant.
+Pour finir le bouton commander renvoie sur l'index car le paiement ne sera pas instauré.
 
