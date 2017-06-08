@@ -13,3 +13,8 @@ Pour cela j'ai créé une base de donné mySQL manuellement en mettant les canar
 Je les ai mis dans un select afin que le client ait le choix dans un menu déroulant.
 Pour finir le bouton commander renvoie sur l'index car le paiement ne sera pas instauré.
 
+08/06 9h00:
+J'ai créé la page personnaliser où l'on peut remplir le nom qui nous plait puis avec 4 menu déroulant.
+Cette après midi je suis confronter à un problème, c'est au niveau de l'ajout de ma commande dans une table "command_duck".
+Je n'arrive pas à récuperer les info que j'ai passer à la page d'avant.
+Toujours pas trouvé le problème.

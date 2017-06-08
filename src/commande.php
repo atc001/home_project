@@ -7,7 +7,7 @@
 
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/style_bis.css">
+<link rel="stylesheet" type="text/css" href="css/style_ter.css">
 <header>
     <img src="img/duck.jpg">
     <h1>Marché aux Canards</h1>
@@ -20,16 +20,16 @@
 </header>
 <main>
     <h2 class="margin">Commander un canard du catalogue :</h2>
-    <form action="index.php">
+    <form method="post" action="index.php">
         <label class="padding">Canard :</label>
-        <select name="canard" required="true" class="padding">
+        <select name="canard" required="true">
         <?php 
             foreach($duck->fetchAll() as $value) {
                 echo "<option value='" . $value['id'] . "'>" . $value['duck'] . "</option>";
             }
         ?>
         </select>
-        <input type="submit" value="Commander">
+        <input type="submit" value="Commander" id="commande">
     </form>
     <p class="margin">Vous pouvez également personnaliser vos canards dans la rubrique "Personnaliser" en haut à droite de votre écran.</p>
 

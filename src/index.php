@@ -10,7 +10,7 @@
 
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/stylePrim.css">
 <header>
     <img src="img/duck.jpg">
     <h1>Marché aux Canards</h1>
