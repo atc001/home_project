@@ -5,7 +5,7 @@
     $duck->execute();
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/styleTer.css">
+<link rel="stylesheet" type="text/css" href="css/style_ter.css">
 <header>
     <img src="img/duck.jpg">
     <h1>Marché aux Canards</h1>
@@ -34,12 +34,22 @@
         echo "<td class='tableau'>" . $value['size_duck'] . "</td>";
         echo "<td class='tableau'>" . $value['matter_duck'] . "</td>";
         echo "<td class='tableau'>" . $value['option_duck'] . "</td>";
-        echo "<td class='tableau'><form method='post' action''><input type='submit' value='Modifier' class='bouton'></form></td>";
-        echo "<td class='tableau'><form method='post' action''><input type='submit' value='Commander' class='bouton'></form></td>";
         echo"</tr>";
     }
     ?>
 </table>
+<div id="form">
+    <form method="post" action="script/db/add.php">
+        <input type="submit" value="Ajouter">
+    </form>
+    <form method="post" action="script/db/delete.php">
+        <input type="submit" value="Supprimer">
+    </form>
+    <form method="post" action="script/db/command.php">
+        <input type="submit" value="Commander">
+    </form>
+</div>
+
 <?php
     require_once("template/foot.php");
 ?>

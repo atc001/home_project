@@ -78,7 +78,7 @@ main form label {
     padding-left: 15px;
 }
 main form input {
-    width: 55px;
+    width: 100px;
     padding-left: 5px;
 }
 #commande {
@@ -88,7 +88,6 @@ main table {
     height: 100px;
     font-size: 20px;
 }
-.bouton {
-    width: 55px;
-    padding-left: 5px;
+.tableau {
+    padding-left: 50px;
 }

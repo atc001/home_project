@@ -21,3 +21,4 @@ Toujours pas trouvé le problème.
 
 09/06 9h15:
 Problème de récupération de donnée résolu. En parallèle j'ai fais le disigne de la page de connexion et j'ai continuer ma page récapitulatif.
+Par manque de temps et de souvenir, je n'ai pas reussit à réimplanter l'update. J'ai terminer néanmois la page récap. J'ai créé un tableau montrant les articles, j'ai implanté un bouton ajouter qui nous fait revenir au choix, supprimer afin de supprimer la commande entiere (je n'ai pas reussit à récupérer un article afin de le supprimer) et un bouton commander qui logiquement renvoi la page paiement, mais ayant pas instaure cette page, je supprime la base de donnee et renvois sur l'accueil.
