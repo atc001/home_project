@@ -18,3 +18,6 @@ J'ai créé la page personnaliser où l'on peut remplir le nom qui nous plait pu
 Cette après midi je suis confronter à un problème, c'est au niveau de l'ajout de ma commande dans une table "command_duck".
 Je n'arrive pas à récuperer les info que j'ai passer à la page d'avant.
 Toujours pas trouvé le problème.
+
+09/06 9h15:
+Problème de récupération de donnée résolu. En parallèle j'ai fais le disigne de la page de connexion et j'ai continuer ma page récapitulatif.

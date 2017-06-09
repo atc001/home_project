@@ -84,3 +84,11 @@ main form input {
 #commande {
     width: 100px;
 }
+main table {
+    height: 100px;
+    font-size: 20px;
+}
+.bouton {
+    width: 55px;
+    padding-left: 5px;
+}

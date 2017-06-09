@@ -26,9 +26,9 @@
     <h2 class="margin">Personnaliser votre canard :</h2>
     <form method="post" action="script/db/insert.php">
         <label>Nom :</label>
-        <input type="text" required="true" name"name_duck">
+        <input type="text" required="true" name="name">
         <label>Couleur :</label>
-        <select name="color_duck" required:"true">
+        <select name="color" required:"true">
             <?php 
                 foreach($color_duck->fetchAll() as $value) {
                     echo "<option value='" . $value['id'] . "'>" . $value['color_duck'] . "</option>";
@@ -36,7 +36,7 @@
             ?>                        
         </select>
         <label>Taille :</label>
-        <select name="size_duck" required:"true">
+        <select name="size" required:"true">
             <?php 
                 foreach($size_duck->fetchAll() as $value) {
                     echo "<option value='" . $value['id'] . "'>" . $value['size_duck'] . "</option>";
@@ -44,7 +44,7 @@
             ?>                        
         </select>
         <label>Matière :</label>
-        <select name="matter_duck" required:"true">
+        <select name="matter" required:"true">
             <?php 
                 foreach($matter_duck->fetchAll() as $value) {
                     echo "<option value='" . $value['id'] . "'>" . $value['matter_duck'] . "</option>";
@@ -52,7 +52,7 @@
             ?>                        
         </select>
         <label>Option :</label>
-        <select name="option_duck" required:"true">
+        <select name="option" required:"true">
             <?php 
                 foreach($option_duck->fetchAll() as $value) {
                     echo "<option value='" . $value['id'] . "'>" . $value['option_duck'] . "</option>";
